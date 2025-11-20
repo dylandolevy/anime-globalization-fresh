@@ -24,30 +24,30 @@ Notebook-driven, reproducible with a clean virtual environment.
 ## 🧰 Reproduce Locally
 
 
-1. Clone \
+1. Clone 
     
     git clone https://github.com/dylandolevy/anime-globalization-fresh.git \
     cd anime-globalization-fresh 
 
-2. Create & Activate Environment \
+2. Create & Activate Environment 
     
     python3 -m venv .venv \
     source .venv/bin/activate \
     pip install -r requirements.txt 
 
 
-3. Jupyter Kernel \
+3. Jupyter Kernel 
     
     python -m ipykernel install --user --name=anime-fresh --display-name "Python (anime-fresh)"
 
 
-4. Place Raw Data \
+4. Place Raw Data 
     
     Put anime.csv (and rating.csv if using) into data/raw/ (not committed if large). \
     If you used Kaggle, keep kaggle.json at ~/.kaggle/kaggle.json. 
 
 
-5. Run the Notebooks \
+5. Run the Notebooks 
 Open VS Code / Jupyter and run: \
     
     notebooks/02_cleaning_exploration.ipynb \

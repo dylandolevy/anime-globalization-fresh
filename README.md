@@ -7,7 +7,7 @@
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 This project builds a reproducible pipeline to:
 
@@ -21,7 +21,10 @@ Notebook-driven, reproducible with a clean virtual environment.
 
 ---
 
-## 🧰 Reproduce Locally
+## Abstract
+Between 2010 and 2025, anime production and global audience interest expanded in tandem, reflecting Japan’s cultural export boom. Google Trends data show that worldwide searches for “anime” more than doubled after 2015, while annual anime releases rose by roughly 70 %. Correlation analysis (r ≈ 0.7) suggests that industry output tracks global demand, with a roughly one-year lag between peaks in search activity and production. Regional trends highlight surging growth in the U.S. and South Korea, confirming the globalization of anime beyond Japan’s domestic market. Genre analysis reveals a sustained dominance of Action and Fantasy, alongside a steady rise in Slice of Life titles—evidence that anime’s thematic diversity continues to broaden its international appeal.
+
+## Reproduce Locally
 
 
 1. Clone 
@@ -85,6 +88,27 @@ Anime Trends by Country \
 <p align="center">
   <img src="outputs/figures/anime_trends_by_country.png" alt="Top anime genre by country" width="800">
 </p>
+
+🌐 Growth by Country (2010–2025)
+Countries such as the US, KR, and GB show the largest percentage increase in anime search interest.
+
+<p align="center">
+  <img src="outputs/figures/anime_trend_growth_by_country.png" alt="Anime interest growth by country" width="700">
+</p>
+
+---
+
+### 🎨 Genre Evolution
+Trends in the five most common genres (2010–2025).  
+Shows how *Action* and *Fantasy* dominate globally, while *Slice of Life* gains steady momentum after 2018.
+
+<p align="center">
+  <img src="outputs/figures/anime_genre_trends.png" alt="Top genres over time" width="700">
+</p>
+
+The US and South Korea show > 80 % growth in anime search interest since 2010, while Japan’s domestic interest remains stable — confirming globalization rather than domestic expansion. \
+Production correlates ~0.7 with global interest, and the lag analysis suggests studios respond to rising demand with a 1-year delay. \
+Genre analysis highlights the mainstreaming of Fantasy and Slice of Life themes, reflecting broader international appeal.
 
 
 ## License

@@ -23,7 +23,8 @@ Notebook-driven, reproducible with a clean virtual environment.
 
 ## 🧰 Reproduce Locally
 
-### 1. Clone
+
+1. Clone
 
 git clone https://github.com/dylandolevy/anime-globalization-fresh.git
 cd anime-globalization-fresh
@@ -53,19 +54,19 @@ notebooks/06_trend_analysis.ipynb
 The notebooks will save processed CSVs to data/processed/
 and figures to outputs/figures/.
 
-Design Decisions & Notes
+## Design Decisions & Notes
 Raw large files are recommended to remain outside the repo.
 Use Git LFS for medium-large assets, or host raw data externally (Zenodo, Google Drive).
 Notebooks are the canonical analysis; the src/ folder contains reusable helpers.
 requirements.txt lists the package versions used for reproducibility.
 
 
-Key Findings (Summary)
+## Key Findings (Summary)
 Global search interest for “anime” rises sharply after 2015.
 Anime production (titles per year) increases in parallel.
 Strong positive correlation between production volume and search interest.
 
-Results Overview
+## Results Overview
 Global Growth of Anime (2010–2025)
 Visualizing global search interest for anime (Google Trends) versus the number of anime produced each year.
 Interest and production volume both rise sharply after 2015, signaling the global “anime boom.”
@@ -81,10 +82,10 @@ Top 10 genres on MyAnimeList by number of titles produced.
 <p align="center"> <img src="outputs/figures/top_genres.png" alt="Top 10 anime genres" width="500"> </p>
 
 
-License
+## License
 This repository is distributed under the MIT License — see LICENSE (or change as desired).
 
-Citation & Data Sources
+## Citation & Data Sources
 MyAnimeList dataset (Kaggle)
 Google Trends (pytrends)
 Jikan API (optional) for anime metadata enrichment

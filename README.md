@@ -78,6 +78,7 @@ Interest and production volume both rise sharply after 2015, signaling the globa
 
 <p align="center"> <img src="outputs/figures/japan_culture_boom.png" alt="Global anime interest vs production (2010–2025)" width="700"> </p>
 Correlation Between Output, Scores, and Global Interest \
+
 A correlation heatmap comparing yearly anime production, average scores, and worldwide search interest.
 
 <p align="center"> <img src="outputs/figures/anime_trends_correlation.png" alt="Correlation heatmap: anime output vs global interest" width="500"> </p>

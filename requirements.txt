@@ -1,0 +1,14 @@
+pandas>=2.0
+numpy
+scikit-learn
+matplotlib
+seaborn
+requests
+pytrends
+jikanpy
+beautifulsoup4
+lxml
+jupyter
+ipykernel
+plotly
+textblob

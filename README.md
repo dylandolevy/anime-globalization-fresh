@@ -25,36 +25,42 @@ Notebook-driven, reproducible with a clean virtual environment.
 
 
 1. Clone \
+    
     git clone https://github.com/dylandolevy/anime-globalization-fresh.git \
     cd anime-globalization-fresh 
 
 2. Create & Activate Environment \
+    
     python3 -m venv .venv \
     source .venv/bin/activate \
     pip install -r requirements.txt 
 
 
 3. Jupyter Kernel \
+    
     python -m ipykernel install --user --name=anime-fresh --display-name "Python (anime-fresh)"
 
 
 4. Place Raw Data \
+    
     Put anime.csv (and rating.csv if using) into data/raw/ (not committed if large). \
     If you used Kaggle, keep kaggle.json at ~/.kaggle/kaggle.json. 
 
 
 5. Run the Notebooks \
 Open VS Code / Jupyter and run: \
+    
     notebooks/02_cleaning_exploration.ipynb \
     notebooks/04_anime_modeling.ipynb \
     notebooks/06_trend_analysis.ipynb \
+
 The notebooks will save processed CSVs to data/processed/ and figures to outputs/figures/. 
 
 ## Design Decisions & Notes
-    Raw large files are recommended to remain outside the repo. \
-    Use Git LFS for medium-large assets, or host raw data externally (Zenodo, Google Drive). \
-    Notebooks are the canonical analysis; the src/ folder contains reusable helpers. \
-    requirements.txt lists the package versions used for reproducibility. 
+Raw large files are recommended to remain outside the repo. \
+Use Git LFS for medium-large assets, or host raw data externally (Zenodo, Google Drive). \
+Notebooks are the canonical analysis; the src/ folder contains reusable helpers. \
+requirements.txt lists the package versions used for reproducibility. 
 
 
 ## Key Findings (Summary)
@@ -63,9 +69,9 @@ The notebooks will save processed CSVs to data/processed/ and figures to outputs
     Strong positive correlation between production volume and search interest. 
 
 ## Results Overview
-    Global Growth of Anime (2010–2025) \
-    Visualizing global search interest for anime (Google Trends) versus the number of anime produced each year. \
-    Interest and production volume both rise sharply after 2015, signaling the global “anime boom.” 
+Global Growth of Anime (2010–2025) \
+Visualizing global search interest for anime (Google Trends) versus the number of anime produced each year. \
+Interest and production volume both rise sharply after 2015, signaling the global “anime boom.” 
 
 <p align="center"> <img src="outputs/figures/japan_culture_boom.png" alt="Global anime interest vs production (2010–2025)" width="700"> </p>
 Correlation Between Output, Scores, and Global Interest \
